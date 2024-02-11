@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.win-msg{
+    color: rgb(245, 245, 241); 
+    font-size: 8vmin;    
+}
+.hide{
+    display: none;
+}
+h1{
+    color: rgb(13, 14, 13);
+    font-size: 8vmin;
+
+}
+body{
+    background-color: rgb(205, 122, 15);
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.game-box{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.2vmin; 
+}
+.btn-box{
+    height:18vmin;
+    width: 18vmin;
+    font-size: 2rem;
+    border: none;
+    box-shadow: 0 0 1rem rgb(235, 95, 95);
+    font-weight: bolder;
+    border-radius: 1.2rem;
+    color: red;
+    background-color: white;
+}
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    border: none;
+    color:white;
+    background-color: black;
+}
+.btnX{
+    color: purple;
+}
+.btnO{
+    color:red;
+}
